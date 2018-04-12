@@ -2,7 +2,7 @@ import akka.http.scaladsl.server.Directives._
 
 class MockController {
   val route =
-    pathPrefix("user") {
+    pathPrefix("something") {
       complete("it works")
     }
 }

@@ -16,7 +16,7 @@ object Main {
     implicit val ec = system.dispatcher
 
     val route = {
-      val mockController = new MockController(userService)
+      val mockController = new MockController
 
       mockController.route
     }
